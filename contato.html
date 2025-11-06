@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Exemplo – Contato</title>
+  <link rel="stylesheet" href="base.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="sobre.html">Sobre a clínica</a></li>
+        <li><a href="horario.html">Horário de Atendimento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="header">
+        <img src="assets/header-contato.jpg" alt="Atendimento ao paciente" />
+      </div>
+
+      <div class="content">
+        <h1>Fale Conosco</h1>
+
+        <h2>Telefones</h2>
+        <p>
+          Celular/WhatsApp: (11) 90000-0000<br />
+          Fixo: (11) 3000-0000
+        </p>
+
+        <h2>Endereço</h2>
+        <p>Av. Paulista, 1000 – Bela Vista, São Paulo – SP, 01310-100</p>
+
+        <h2>Como chegar</h2>
+        <!-- Substitua o src abaixo por um embed do seu endereço real, se desejar -->
+        <div class="mapa">
+          <iframe
+            title="Mapa da Clínica Exemplo"
+            src="https://www.google.com/maps?q=Av.+Paulista,+1000+-+S%C3%A3o+Paulo&output=embed"
+            width="100%"
+            height="300"
+            style="border:0;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <h2>Formulário de Contato</h2>
+        <form action="#" method="post" class="form-contato">
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="campo">
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto" />
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+          </div>
+
+          <div class="acoes">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="footer">
+        <p><strong>Clínica Exemplo</strong> • CNPJ 00.000.000/0000-00</p>
+        <p>Telefone/WhatsApp: (11) 90000-0000 • E-mail: contato@clinicaexemplo.com.br</p>
+        <p>Endereço: Av. Paulista, 1000 – Bela Vista, São Paulo – SP</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
